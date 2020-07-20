@@ -34,7 +34,7 @@ class MoviesTable extends Component {
         columns={this.columns}
         data={movies}
         sortColumn={sortColumn}
-        onsort={onSort}
+        onSort={onSort}
       />
     );
   }
